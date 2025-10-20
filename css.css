@@ -1,6 +1,6 @@
  body {
-      background: #0f172a;
-      color: #e6eef8;
+      background: #F0BD74;
+      color: #302e2e;
       font-family: Arial, sans-serif;
       display: flex;
       align-items: center;
@@ -12,6 +12,7 @@
 
     .wrap {
       text-align: center;
+      
     }
     .btn-div{
       margin: 10px 0;
@@ -26,8 +27,8 @@
       transition: all 0.3s ease;
     }
     .btn.next-neon {
-  background: #06b6d4;
-  color: #fff;
+  background: #70C2B4;
+  color: #000000;
   border: none;
   padding: 12px 28px;
   border-radius: 12px;
@@ -102,12 +103,12 @@
 
     .front {
       font-size: clamp(40px, 20vw, 150px);
-      background: #1e293b;
+      background: #956AD6;
     }
 
     .back {
       transform: rotateY(180deg);
-      background: #334155;
+      background: #956AD6;
     }
 
     .pinyin {
@@ -120,3 +121,15 @@
       font-size: clamp(16px, 5vw, 50px);
       word-break: break-word;
     }
+    @media only screen and (max-width: 768px) {
+  .wrap {
+    padding-bottom: 250px;
+  }
+  .btn{
+    padding: 5px;
+    margin:0px
+  }
+  .card{
+    margin-bottom: 5px;
+  }
+}
