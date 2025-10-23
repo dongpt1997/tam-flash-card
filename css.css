@@ -115,7 +115,7 @@
     }
 
     .front {
-      font-size: clamp(60px, 20vw, 150px);
+      font-size: clamp(60px, 20vw, 120px);
       background: #956AD6;
       color: rgb(241, 237, 237);
     }
